@@ -1,0 +1,112 @@
+body{
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+main {
+    padding-left: 100px;
+}
+
+.cabecalho__menu {
+    display:flex;
+    padding:2% 0 10% 15%;
+    gap:80px
+}
+
+.cabecalho__menu__link {
+   
+    text-decoration:none;
+    font-family:"Montserrat" , sans-serif;
+    font-size:24px;
+    font-weight: 600;;
+    color:#22D4FD;
+}
+
+.apresentacao {
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    gap:100px;
+    margin-left: 30px;
+  
+}
+
+.apresentacao__foto {
+    width:200px;
+    height:200px;
+    border:5px solid #22D4FD;
+}
+
+.apresentacao__titulo {
+    font-size:50px;
+}
+
+.apresentacao__paragrafo {
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+    text-align:center;
+    margin: 0 350px  0 350px;
+}
+
+.titulo {
+    font-size:30px;
+    font-weight: 700;
+   
+}
+
+.subtitulo {
+    font-size:25px;
+
+}
+
+.texto {
+    font-size:20px;
+
+}
+
+.apresentacao__paragrafo {
+    text-align: center;
+    font-size:30px;
+}
+
+.contato {
+    margin-top: 90px;
+    
+}
+
+.contato__lista__item {
+    font-size:20px;
+}
+
+.historico__profissional__lista {
+    font-size:20px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    color:#000000;
+    background-color:#22D4FD;
+    height:40px;
+    padding:24px;
+    text-align:center;
+    font-family:"Montserraf" , sans-serif;
+    font-size:24px;
+    font-weight: 400;
+}
+
+
+
+
+ 
